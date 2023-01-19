@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: .13fr 1fr .5fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li, ul{
+    list-style: none;
+}
+
+h1{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+    margin-top: 4rem;
+}
+
+
+.centrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    padding-top: 4rem;
+}
+.left{
+    padding-left: 20px;
+}
+.subtitulo{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.logo{
+    height: 163.783px;
+    width: 520px;
+}
+
+.vinculos{
+    word-spacing: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 68px;
+    padding-top: 44px;
+}
+
+.vinculos a{
+    color: blue;
+}
+
+.hiper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+header, footer{
+    background-color: #E6F5FF;
+}
+
+.pieDePagina{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.pie{
+    line-height: 30px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.copyright{
+    padding: 5px;
+    text-align: center;
+    background-color: #A1ACB3;
+    font-size: 15px;
+}
+
+.carrito{
+    width: 100vh;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito h2{
+    padding-bottom: 15px;
+}
+
+.comprar{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background: rgb(66,207,255);
+    background: linear-gradient(90deg, rgba(66,207,255,1) 16%, rgba(96,201,255,1) 46%, rgba(125,178,255,1) 78%, rgba(80,148,255,1) 91%);  
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+/* .comprar:hover{
+    color: black;
+    border: 1px solid;
+} */
+
+
+/* TIENDA */
+
+.cuadricula{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 45px;
+}
+
+.body-card{
+    /* width: 320px;
+    height: 360px; */
+    width: 500px;
+    height: 450px;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 0px 29px 64px -4px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 29px 64px -4px rgba(0,0,0,0.4);
+    box-shadow: 0px 29px 64px -4px rgba(0,0,0,0.4);
+    transition-property: all;
+    transition-duration: .4s;
+}
+.body-card:hover{
+    transform: translateY(-25px);
+    -webkit-box-shadow: 0px 20px 7px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 20px 7px 4px rgba(0,0,0,0.3);
+    box-shadow: 0px 20px 7px 4px rgba(0,0,0,0.3);
+}
+
+.body-card p{
+    font-size: 18px;
+}
+.body-card a{
+    background: rgb(66,207,255);
+    background: linear-gradient(90deg, rgba(66,207,255,1) 16%, rgba(96,201,255,1) 46%, rgba(125,178,255,1) 78%, rgba(80,148,255,1) 91%);  
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.texto_card{
+    line-height: 30px;
+}
+
+.img_card{
+    /* width: 320px;
+    height: 215px; */
+    width: 500px;
+    height: 325px;
+    object-fit: cover;
+}
+
+/* INICIO */
+.marcas{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+}
+
+.img_marcas{
+    height: 160px;
+    width: 240px;
+    padding: 5px;
+    border: 1px solid;
+    /* object-fit: cover; */
+}
