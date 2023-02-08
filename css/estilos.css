@@ -27,7 +27,7 @@ li, ul{
 
 h1{
     font-size: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 h3{
@@ -58,7 +58,7 @@ footer{
     align-items: center;
 }
 .top{
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 .left{
     padding-left: 20px;
@@ -150,12 +150,6 @@ header, footer{
     border-radius: 10px;
 }
 
-/* .comprar:hover{
-    color: black;
-    border: 1px solid;
-} */
-
-
 /* TIENDA */
 
 .cuadricula{
@@ -166,8 +160,6 @@ header, footer{
 }
 
 .body-card{
-    /* width: 320px;
-    height: 360px; */
     width: 500px;
     height: 450px;
     margin-bottom: 2rem;
@@ -176,6 +168,7 @@ header, footer{
     box-shadow: 0px 29px 64px -4px rgba(0,0,0,0.4);
     transition-property: all;
     transition-duration: .4s;
+    position: relative;
 }
 .body-card:hover{
     transform: translateY(-25px);
@@ -190,7 +183,6 @@ header, footer{
 .body-card a{
     background: rgb(66,207,255);
     background: linear-gradient(90deg, rgba(66,207,255,1) 16%, rgba(96,201,255,1) 46%, rgba(125,178,255,1) 78%, rgba(80,148,255,1) 91%);  
-    padding: 5px;
     font-size: 25px;
     font-weight: bold;
     display: flex;
@@ -204,13 +196,26 @@ header, footer{
     color: #fff;
 }
 
+.body-card button{
+    background: rgb(66,207,255);
+    background: linear-gradient(90deg, rgba(66,207,255,1) 16%, rgba(96,201,255,1) 46%, rgba(125,178,255,1) 78%, rgba(80,148,255,1) 91%);  
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 100px;
+    margin-right: 80px;
+    border: 0vh;
+    border-radius: 5px;
+}
+
 .texto_card{
     line-height: 30px;
 }
 
 .img_card{
-    /* width: 320px;
-    height: 215px; */
     width: 500px;
     height: 325px;
     object-fit: cover;
@@ -228,5 +233,146 @@ header, footer{
     width: 240px;
     padding: 5px;
     border: 1px solid;
-    /* object-fit: cover; */
+}
+
+/* PARA AGREGAR ANIMACIÓN EN IMG CARD */
+.container{
+    position:relative;
+    overflow: hidden;
+}
+
+.container .hover-slide{
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: .4s;
+}
+
+.container:hover .hover-slide{
+    opacity: 1;
+    transform: scale(1.009) translateZ(0);
+}
+
+/* .zoom{
+    transition-property: all;
+    transition-duration: .5s;
+}
+
+.zoom:hover{
+    transform: scale(0.7) translateZ(0);
+} */
+
+.btnPointer, .sumar, .restar{
+    cursor: pointer;
+}
+
+.cantidad-carrito{
+    position: absolute;
+    display: none;
+    top: 69px;
+    right: 50px;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: blue;
+}
+
+/* ESTILOS MODAL */
+.modal-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: #fff;
+    background-color: #A1ACB3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*for the top*/
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    background-color: rgba(125,178,255,1);
+    font-weight: bold;
+    color: #000000;
+    width: 100%;
+    border: solid 1px;
+}
+.modal-header-title {
+    justify-self: start;
+}
+.modalButton {
+    border: solid 2px;
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    color: #000000;
+    background-color: rgb(66,207,255);
+}
+
+.modal-container > .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button-shop{
+    background: rgb(66,207,255);
+    background: linear-gradient(90deg, rgba(66,207,255,1) 16%, rgba(96,201,255,1) 46%, rgba(125,178,255,1) 78%, rgba(80,148,255,1) 91%);  
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    border: 0vh;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+    .modal-container {
+        width: 100%;
+        margin: 0;
+        min-height: 88vh;
+}
+
+.modal-container > .modal-content {
+        justify-content: space-between;
+        width: 100%;
+        margin: 2px;
+}
+
+.modal-container > div > img {
+        height: 80px;
+        width: 80px;
+}
 }
