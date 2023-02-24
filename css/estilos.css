@@ -63,6 +63,12 @@ footer{
 .left{
     padding-left: 20px;
 }
+.rigth{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
 .subtitulo{
     padding-bottom: 30px;
     font-size: 30px;
@@ -120,23 +126,20 @@ header, footer{
     font-size: 15px;
 }
 
+.modalVacio{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
 .carrito{
-    width: 100vh;
-    height: 48vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
-
-.carrito h2{
-    padding-bottom: 15px;
-}
-
 .comprar{
     text-decoration: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -282,8 +285,8 @@ header, footer{
 
 /* ESTILOS MODAL */
 .modal-container {
-    width: 80%;
-    margin: 0 10%;
+    width: 70%;
+    margin: 0 15%;
     max-height: 88vh;
     color: #fff;
     background-color: #A1ACB3;
@@ -296,7 +299,13 @@ header, footer{
     z-index: 9;
     top: 12vh;
     scrollbar-color: none;
+    /* transition: transform .5s;
+    transform: translate(100%); */
 }
+
+/* .modal-container:target{
+    transform: translate(0);
+} */
 
 .modal-container::-webkit-scrollbar {
     display: none;
@@ -306,14 +315,17 @@ header, footer{
     display: flex;
     justify-content: space-between;
     letter-spacing: 2px;
-    background-color: rgba(125,178,255,1);
+    background-color: #828f96;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
     width: 100%;
-    border: solid 1px;
+    border: solid 1px #000000;
+    margin-bottom: 1rem;
 }
 .modal-header-title {
     justify-self: start;
+    padding-left: 78px;
+    padding-top: 6px;
 }
 .modalButton {
     border: solid 2px;
@@ -327,33 +339,35 @@ header, footer{
 }
 
 .modal-container > .modal-content {
+    display: grid;
+    grid-template-columns: repeat(7, 0.5fr);
+    text-align: left;
+    width: 87%;
+    margin: 10px;
+    border-bottom: solid 1px #828f96;
+}
+
+.contenedor{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 70%;
-    margin: 10px;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
-
 .total-content {
     font-size: 25px;
-    padding: 20px;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
 }
-
 .button-shop{
     background: rgb(66,207,255);
     background: linear-gradient(90deg, rgba(66,207,255,1) 16%, rgba(96,201,255,1) 46%, rgba(125,178,255,1) 78%, rgba(80,148,255,1) 91%);  
     font-size: 25px;
     font-weight: bold;
     color: #fff;
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 100px;
-    margin-right: 80px;
-    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     border: 0vh;
     border-radius: 5px;
 }

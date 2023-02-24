@@ -1,0 +1,148 @@
+[
+    {   
+        "modelo" : "BMW M1 GENERACIÓN 1",
+        "escala" : "ESCALA 1:24",
+        "id" : 101,
+        "precio" : 8000,
+        "descripcion" : "WELLY ORIGINAL 1:24 - BMW M1 GENERACIÓN 1, fabricado en metal con partes plásticas, color blanco, se abren las puertas, largo aprox. del auto 18 cm, medidas de la caja : 24 x 13 x 10 cm, peso 550 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {
+        "modelo" : "PORSCHE 911 CARRERA 4S",
+        "escala" : "ESCALA 1:24",
+        "id" : 102,
+        "precio" : 8000,
+        "descripcion" : "WELLY ORIGINAL 1:24 - PORSCHE 911 CARRERA 4S, fabricado en metal con partes plásticas, color amarillo, se abren las puertas, largo aprox. del auto 18 cm, medidas de la caja : 24 x 13 x 10 cm, peso 550 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {   
+        "modelo" : "ALFA ROMEO 4C",
+        "escala" : "ESCALA 1:24",
+        "id" : 103,
+        "precio" : 8000,
+        "descripcion" : "WELLY ORIGINAL 1:24 - ALFA ROMEO 4C, fabricado en metal con partes plásticas, color blanco, se abren las puertas, largo aprox. del auto 18 cm, medidas de la caja : 24 x 13 x 10 cm, peso 550 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },    
+    {   
+        "modelo" : "PORSCHE CARRERA GT",
+        "escala" : "ESCALA 1:24",
+        "id" : 104,
+        "precio" : 8000,
+        "descripcion" : "MOTORMAX ORIGINAL 1:24 - PORSCHE CARRERA GT, fabricado en metal con partes plásticas, color negro, se abren las puertas, el capot y el baúl delantero, largo aprox. del auto 18 cm, medidas de la caja : 24 x 13 x 10 cm, peso 550 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {   
+        "modelo" : "DODGE VIPER SRT",
+        "escala" : "ESCALA 1:24",
+        "id" : 105,
+        "precio" : 8000,
+        "descripcion" : "BURAGO ORIGINAL 1:24 - DODGE VIPER SRT, fabricado en metal con partes plásticas, color rojo con franja negra, se abren las puertas y el capot, largo aprox. del auto 18 cm, medidas de la caja : 24 x 13 x 10 cm, peso 550 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {
+        "modelo" : "PAGANI HUAYRA BC",
+        "escala" : "ESCALA 1:24",
+        "id" : 106,
+        "precio" : 10000,
+        "descripcion" : "WELLY ORIGINAL 1:24 - PAGANI HUAYRA BC, fabricado en metal con partes plásticas, color rojo, se abren las puertas, largo aprox. del auto 18 cm, medidas de la caja : 24 x 13 x 10 cm, peso 550 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    
+    {   
+        "modelo" : "BMW R NINET SCRAMBLER",
+        "escala" : "ESCALA 1:12",
+        "id" : 201,
+        "precio" : 7000,
+        "descripcion" : "MAISTRO ORIGINAL 1:12 - BMW R NINET SCRAMBLER, fabricado en metal con partes plásticas, color gris, largo aprox. 13 cm, medidas de la caja : 21 x 12 x 7 cm, peso 450 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {   
+        "modelo" : "KTM 1290 SUPER DUKE R",
+        "escala" : "ESCALA 1:12",
+        "id" : 202,
+        "precio" : 7000,
+        "descripcion" : "MAISTRO ORIGINAL 1:12 - KTM 1290 SUPER DUKE R, fabricado en metal con partes plásticas, color naranja, largo aprox. 13 cm, medidas de la caja : 21 x 12 x 7 cm, peso 450 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {   
+        "modelo" : "KAWASAKI Z900 RS",
+        "escala" : "ESCALA 1:12",
+        "id" : 203,
+        "precio" : 7000,
+        "descripcion" : "MAISTRO ORIGINAL 1:12 - KAWASAKI Z900 RS, fabricado en metal con partes plásticas, color negro, largo aprox. 13 cm, medidas de la caja : 21 x 12 x 7 cm, peso 450 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {   
+        "modelo" : "SUZUKI GSX-R600",
+        "escala" : "ESCALA 1:12",
+        "id" : 204,
+        "precio" : 7000,
+        "descripcion" : "MAISTRO ORIGINAL 1:12 - SUZUKI GSX-R600, fabricado en metal con partes plásticas, color naranja, largo aprox. 13 cm, medidas de la caja : 21 x 12 x 7 cm, peso 450 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {   
+        "modelo" : "YAMAHA YZF-R1",
+        "escala" : "ESCALA 1:12",
+        "id" : 205,
+        "precio" : 7000,
+        "descripcion" : "MAISTRO ORIGINAL 1:12 - YAMAHA YZF-R1, fabricado en metal con partes plásticas, color azul, largo aprox. 13 cm, medidas de la caja : 21 x 12 x 7 cm, peso 450 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {   
+        "modelo" : "HONDA CBR1000RR",
+        "escala" : "ESCALA 1:12",
+        "id" : 206,
+        "precio" : 7000,
+        "descripcion" : "NEWRAY ORIGINAL 1:12 - HONDA CBR1000RR, fabricado en metal con partes plásticas, color blanco con diseño deportivo, largo aprox. 13 cm, medidas de la caja : 21 x 12 x 7 cm, peso 450 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    
+    {  
+        "modelo" : "TRILOGÍA DE VOLVER AL FUTURO",
+        "escala" : "ESCALA 1:24",
+        "id" : 301,
+        "precio" : 30000,
+        "descripcion" : "WELLY ORIGINAL 1:24 - TRILOGÍA DE VOLVER AL FUTURO, fabricado en metal con partes plásticas, color gris, largo aprox. 18 cm, medidas de la caja : 36 x 22 x 20 cm, peso 1300 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {  
+        "modelo" : "HOT WHEELS DE BATMAN",
+        "escala" : "ESCALA 1:64",
+        "id" : 302,
+        "precio" : 20000,
+        "descripcion" : "HOT WHEELS ORIGINAL 1:64 - HOT WHEELS DE BATMAN, fabricado en metal con partes plásticas, color gris, largo aprox. 8 cm, medidas de la caja : 10,5 x 16,5 cm, peso 500 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {  
+        "modelo" : "HOT WHEELS BATIMOVIL",
+        "escala" : "ESCALA 1:64",
+        "id" : 303,
+        "precio" : 18000,
+        "descripcion" : "HOT WHEELS ORIGINAL 1:64 - HOT WHEELS BATIMOVIL, fabricado en metal con partes plásticas, color negro, largo aprox. 8 cm, medidas de la caja : 35 x 36 x 10 cm, peso 800 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {  
+        "modelo" : "MOTOS DE LEYENDA",
+        "escala" : "ESCALA 1:18",
+        "id" : 304,
+        "precio" : 25000,
+        "descripcion" : "APRILIA ORIGINAL 1:18 - MOTOS DE LEYENDA, fabricado en metal con partes plásticas, colores varios, largo aprox. 16 cm, medidas de la caja : 35 x 40 x 10 cm, peso 1000 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {  
+        "modelo" : "DEPORTIVOS DE LEYENDA",
+        "escala" : "ESCALA 1:38",
+        "id" : 305,
+        "precio" : 23000,
+        "descripcion" : "WELLY ORIGINAL 1:38 - DEPORTIVOS DE LEYENDA, fabricado en plástico, colores varios, largo aprox. 12 cm, medidas de la caja :  20,5 x 27,5 cm, peso 900 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    },
+    {  
+        "modelo" : "AUTOS CLASICOS",
+        "escala" : "ESCALA 1:38",
+        "id" : 306,
+        "precio" : 7000,
+        "descripcion" : "WELLY ORIGINAL 1:38 - AUTOS CLASICOS, fabricado en plástico, colores varios, largo aprox. 12 cm, medidas de la caja : 20,5 x 27,5 cm, peso 900 grs. Artículo nuevo cerrado en embalaje original.",
+        "cantidad" : 1
+    }
+]    
