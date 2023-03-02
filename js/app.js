@@ -20,7 +20,7 @@ const stockProduct = async () =>{
             if (repeat) {
                 carrito.map((prod) => {
                     if (prod.id === product.id) {
-                        prod.cantidad+=1;
+                        prod.cantidad++;
                         prod.precio * prod.cantidad;
                     }}
                 );
